@@ -3,7 +3,7 @@
 
   <include name="omnirom-6.0.xml" />
 
-  <project path="kernel/asus/grouper" name="apinela/android_kernel_asus_grouper" remote="github" revision="grouper/3.4/dev" groups="device,grouper" />
+  <project path="kernel/asus/grouper" name="grouper-aosp/android_kernel_asus_grouper" remote="github" revision="aosp-6.0" groups="device,grouper" />
   <project path="device/asus/grouper" name="grouper-aosp/android_device_asus_grouper" remote="github" revision="aosp-6.0" groups="device,grouper" />
   <project path="device/asus/tilapia" name="grouper-aosp/android_device_asus_tilapia" remote="github" revision="aosp-6.0" groups="device,grouper" />
 
