@@ -13,7 +13,7 @@
   <project path="vendor/nvidia" name="grouper-aosp/proprietary_vendor_nvidia" remote="github" revision="aosp-6.0" />
   <project path="vendor/widevine" name="grouper-aosp/proprietary_vendor_widevine" remote="github" revision="aosp-6.0" />
 
-  <project path="device/asus/grouper-omni" name="apinela/android_device_asus_grouper" remote="github" revision="omni-6.0" groups="device,grouper" >
+  <project path="device/asus/grouper-omni" name="grouper-aosp/android_device_asus_grouper" remote="github" revision="omni-6.0" groups="device,grouper" >
     <copyfile src="products_mk" dest="device/asus/grouper/AndroidProducts.mk" />
     <copyfile src="omni.dependencies" dest="device/asus/grouper/omni.dependencies" />
     <copyfile src="omni_grouper.mk" dest="device/asus/grouper/omni_grouper.mk" />
@@ -22,7 +22,7 @@
     <copyfile src="vendorsetup" dest="device/asus/grouper/vendorsetup.sh" />
   </project>
 
-  <project path="device/asus/tilapia-omni" name="apinela/android_device_asus_tilapia" remote="github" revision="omni-6.0" groups="device,grouper" >
+  <project path="device/asus/tilapia-omni" name="grouper-aosp/android_device_asus_tilapia" remote="github" revision="omni-6.0" groups="device,grouper" >
     <copyfile src="products_mk" dest="device/asus/tilapia/AndroidProducts.mk" />
     <copyfile src="omni.dependencies" dest="device/asus/tilapia/omni.dependencies" />
     <copyfile src="omni_tilapia.mk" dest="device/asus/tilapia/omni_tilapia.mk" />
