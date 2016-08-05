@@ -6,7 +6,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using theese trees, use a command like this:
 
-    repo init -u git://github.com/apinela/android.git -b grouper-cm-13.0
+    repo init -u git://github.com/grouper-aosp/platform_manifest.git -b cm-13.0
 
 Then to sync up:
 
