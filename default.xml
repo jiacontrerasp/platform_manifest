@@ -20,6 +20,7 @@
     <copyfile src="twrp.fstab" dest="device/asus/grouper/twrp.fstab" />
     <copyfile src="nfc_android_mk" dest="device/asus/grouper/nfc/Android.mk" />
     <copyfile src="vendorsetup" dest="device/asus/grouper/vendorsetup.sh" />
+    <copyfile src="recovery.mk" dest="device/asus/grouper/recovery.mk" />
   </project>
 
   <project path="device/asus/tilapia-omni" name="grouper-aosp/android_device_asus_tilapia" remote="github" revision="omni-7.0" groups="device,grouper" >
