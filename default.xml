@@ -9,6 +9,24 @@
            fetch="https://github.com/"
            revision="aosp-7.0" />
 
+  <!-- Remove other devices -->
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/asus/fugu" />
+  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/google/dragon" />
+  <remove-project name="device/google/dragon-kernel" />
+  <remove-project name="device/htc/flounder" />
+  <remove-project name="device/htc/flounder-kernel" />
+  <remove-project name="device/huawei/angler" />
+  <remove-project name="device/huawei/angler-kernel" />
+  <remove-project name="device/intel/edison" />
+  <remove-project name="device/lge/bullhead" />
+  <remove-project name="device/lge/bullhead-kernel" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/moto/shamu" />
+  <remove-project name="device/moto/shamu-kernel" />
+
   <!-- Replace build project to build kernel inline from the source -->
   <remove-project name="platform/build" />
   <project path="build" name="grouper-aosp/android_build" remote="github" groups="pdk" >
