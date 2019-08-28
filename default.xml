@@ -7,7 +7,7 @@
   <!-- Define remotes -->
   <remote  name="github"
            fetch="https://github.com/"
-           revision="aosp-7.0" />
+           revision="aosp-9.0" />
 
   <!-- Remove other devices -->
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
@@ -29,7 +29,7 @@
 
   <!-- Replace build project to build kernel inline from the source -->
   <remove-project name="platform/build" />
-  <project path="build" name="grouper-aosp/android_build" remote="github" groups="pdk" >
+  <project path="build" name="Unlegacy-Android/android_build" remote="github" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -37,15 +37,15 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="master" />
 
   <!-- Grouper device and kernel -->
-  <project path="kernel/asus/grouper" name="grouper-aosp/android_kernel_asus_grouper" remote="github" />
-  <project path="device/asus/grouper" name="grouper-aosp/android_device_asus_grouper" remote="github" />
-  <project path="device/asus/tilapia" name="grouper-aosp/android_device_asus_tilapia" remote="github" />
+  <project path="kernel/asus/grouper" name="Unlegacy-Android/android_kernel_asus_grouper" remote="github" />
+  <project path="device/asus/grouper" name="Unlegacy-Android/android_device_asus_grouper" remote="github" />
+  <project path="device/asus/tilapia" name="Unlegacy-Android/android_device_asus_tilapia" remote="github" />
 
   <!-- Grouper vendor repositories -->
-  <project path="vendor/asus" name="grouper-aosp/proprietary_vendor_asus" remote="github" />
-  <project path="vendor/broadcom" name="grouper-aosp/proprietary_vendor_broadcom" remote="github" />
-  <project path="vendor/invensense" name="grouper-aosp/proprietary_vendor_invensense" remote="github" />
-  <project path="vendor/nvidia" name="grouper-aosp/proprietary_vendor_nvidia" remote="github" />
-  <project path="vendor/widevine" name="grouper-aosp/proprietary_vendor_widevine" remote="github" />
+  <project path="vendor/asus" name="Unlegacy-Android/proprietary_vendor_asus" remote="github" />
+  <project path="vendor/broadcom" name="Unlegacy-Android/proprietary_vendor_broadcom" remote="github" />
+  <project path="vendor/invensense" name="Unlegacy-Android/proprietary_vendor_invensense" remote="github" />
+  <project path="vendor/nvidia" name="Unlegacy-Android/proprietary_vendor_nvidia" remote="github" />
+  <project path="vendor/widevine" name="Unlegacy-Android/proprietary_vendor_widevine" remote="github" />
 
 </manifest>
