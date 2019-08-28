@@ -7,7 +7,7 @@
   <!-- Define remotes -->
   <remote  name="github"
            fetch="https://github.com/"
-           revision="aosp-9.0" />
+           revision="aosp-8.1" />
 
   <!-- Remove other devices -->
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
