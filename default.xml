@@ -8,6 +8,10 @@
   <remote  name="github"
            fetch="https://github.com/"
            revision="aosp-8.1" />
+  
+  <remote  name="jiacp"
+           fetch="https://github.com/"
+           revision="ads-7.1.0" />
 
   <!-- Remove other devices -->
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
@@ -37,7 +41,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="master" />
 
   <!-- Grouper device and kernel -->
-  <project path="kernel/asus/grouper" name="Unlegacy-Android/android_kernel_asus_grouper" remote="github" />
+  <project path="kernel/asus/grouper" name="AndDiSa/android_kernel_asus_grouper" remote="jiacp" />
   <project path="device/asus/grouper" name="Unlegacy-Android/android_device_asus_grouper" remote="github" />
   <project path="device/asus/tilapia" name="Unlegacy-Android/android_device_asus_tilapia" remote="github" />
 
